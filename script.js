@@ -17,7 +17,7 @@ hamburger.addEventListener('click', function () {
 
 document.getElementById('downloadButton').addEventListener('click', function() {
     var link = document.createElement('a');
-    link.href = 'C:\\Users\\Pranali\\Desktop\\YASH\\Programming\\E-Portfolio\\Photos and documents\\Resume.pdf'; // Replace 'path_to_your_document' with the actual path to your document
+    link.href = 'Resume.pdf'; // Replace 'path_to_your_document' with the actual path to your document
     link.download = 'Yash Resume'; // Replace 'your_document_name' with the name you want the downloaded file to have
     document.body.appendChild(link);
     link.click();
